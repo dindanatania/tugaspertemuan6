@@ -1,0 +1,42 @@
+package pertemuan6;
+
+public class Segitiga {
+    
+    //Atribut
+    double alas;
+    double tinggi;
+    double sisi;
+    
+    //Konstruktor tanpa parameter
+    Segitiga(){
+        
+    }
+    //Konstruktor dengan parameter
+    Segitiga(double alasBaru, double tinggiBaru, double sisiBaru){
+        alas = alasBaru;
+        tinggi = tinggiBaru;
+        sisi = sisiBaru;
+    }
+    
+    //Fungsi
+    double getLuas(){
+        return 0.5 * alas * tinggi;
+    }
+    
+    double getKeliling(){
+        return sisi + sisi + sisi;
+    }
+    
+    //Method
+    void setAlas(double alasBaru){
+        alas = alasBaru;
+    }
+    
+    void setTinggi(double tinggiBaru){
+        tinggi = tinggiBaru;
+    }
+    
+    void setSisi(double sisiBaru){
+        sisi = sisiBaru;
+    }
+}
